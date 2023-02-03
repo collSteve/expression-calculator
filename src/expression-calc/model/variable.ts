@@ -15,4 +15,8 @@ export class Variable extends Expression {
     evaluate(env: Environment): number {
         return env.getVariableExpression(this.symbol).evaluate(env);
     }
+
+    evaluateVariate(env: Environment): Expression {
+        return env.getVariableExpression(this.symbol);
+    }
 }
