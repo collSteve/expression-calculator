@@ -4,9 +4,10 @@ import { Divide } from "./defined-expressions/divide";
 import { Minus } from "./defined-expressions/minus";
 import { Multiply } from "./defined-expressions/multiply";
 
-export const ElementaryExpressions = [
+export {
     Add,
     Multiply,
     Minus,
-    Divide
-];
+    Divide,
+    Constant
+};

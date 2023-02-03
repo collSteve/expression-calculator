@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Constant, Multiply, Add } from './expression-calc/model/expression';
+import { Constant, Multiply, Add } from './expression-calc/model/defined-expressions';
 import { Environment } from './expression-calc/model/environment';
 
 function App() {
