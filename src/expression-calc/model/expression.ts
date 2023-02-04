@@ -2,10 +2,6 @@ import { FixedLengthArray } from "../../utils/fixed-length-array";
 import { Environment } from "./environment";
 
 export abstract class Expression {
-    constructor() {
-
-    }
-
     abstract toString(): string;
 
     abstract evaluate(env: Environment): number;

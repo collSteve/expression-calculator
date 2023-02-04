@@ -15,7 +15,7 @@ export interface FixedLengthArrayArgs<T> {
   defaultValue?: T;
 }
 
-function defaultArray<T>(length: number, defaultValue: T, copy: (data:T)=>T = deepCopy) {
+export function defaultArray<T>(length: number, defaultValue: T, copy: (data:T)=>T = deepCopy) {
   const array: T[] = [];
 
   for (let i=0; i<length; i++) {
